@@ -19,7 +19,7 @@ Since mPDF 7.0 is compatible with these PHP versions:
 
 PHP extensions required, partially required or recommended:
 
-  * PHP `mbstring` (including `mbregex`, which needs to be explicitly enabled in some environments) and `gd` extensions have to be loaded.
+  * PHP `mbstring` and `gd` extensions have to be loaded. (`mPDF <= v8.3.1` also required `mbregex`)
   * Additional extensions may be required for some advanced features such as 
     * `zlib` for compression of embedded resources such as fonts or for importing existing PDF files with FPDI
     * `bcmath` for generating barcodes
