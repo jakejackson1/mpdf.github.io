@@ -31,9 +31,9 @@ modification_time: 2016-06-25T07:30:29+00:00
 
 ## Crashing with no error message whatsoever
 
-Ensure `mbregex` is enabled as part of mbstring. Apparently this is enabled by default when you enable mbstring in most
+If running `mPDF <= v8.3.1` ensure `mbregex` is enabled as part of mbstring. Apparently this is enabled by default when you enable mbstring in most
 cases, however with cPanel and some other non-standard environments this might not be the case, so people have to
-explicitly look for and enable `mbregex` (i.e. compile PHP with `--enable-mbregex`.
+explicitly look for and enable `mbregex` (i.e. compile PHP with `--enable-mbregex`. All releases after `v8.3.1` no longer require `mbregex`.
 
 ## Blank pages or some sections missing
 
